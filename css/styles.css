@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #b6b2ac;
+    color: #000;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+  }
+  
+  .hero-text {
+    max-width: 45%;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  /* Hero Image */
+  .hero-image img {
+    width: 550px;
+    border-radius: 10px;
+  }
+
+  /* Footers*/
+  .footer-header {
+    display: inline;
+  }
+  .footer-header  h1 {
+    padding: 0;
+    text-align: center;
+  }
+  ul#foot-menu {
+    text-align: center;
+  }
+  ul#foot-menu li {
+    display: inline;
+  }
+
+  ul#foot-menu li img {
+     padding: 10px;
+     max-width: 150px;
+     max-height: 100px;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    width: 90%;
+    min-height: 50vh;       
+    margin: 0 40px 0 40px;               
+    padding: 0;              
+    background-color: #f9f9f9;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+  
